@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
+import './style.css'
 
 class App extends Component{
     render(){
     return(
         <div className='container'>
-        <img alt='cronometro' src={require('./assets/cronometro.png')}className='img'/><br/>
-
-        <a className='timer'>0.0</a><br/>
-        
+        <img alt='cronometro' src={require('./assets/cronometro.png')}className='img'/>
+        <a className='timer'>0.0</a>
         <div className='areaBtn'>
-            <a className='botao'>VAI</a><br/>
-            <a className='botao'>LIMPAR</a><br/>
+            <a className='botao'>VAI</a>
+            <a className='botao'>LIMPAR</a>
         </div>
         </div>
 
